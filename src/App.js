@@ -95,11 +95,11 @@ function Charts({ data }) {
 		setHc_rest(hc_rest);
 	};
 	return (
-		<>
+		<div className="charts">
 			<div id="happy-chart"></div>
 			<div id="angry-chart"></div>
 			<div id="rest-chart"></div>
-		</>
+		</div>
 	);
 }
 
@@ -200,48 +200,63 @@ function AppInner2() {
 	return (
 		<div className="App">
 			<div>{initializing ? "Loading...." : "Ready!!!"}</div>
-			<div className="app_container">
-				{!initializing && (
-					<div className="canvas behind">
-						Hi, your webcam video should show here. If you can't see
-						your webcam video, your webcam may not be turned on. If
-						you don't see the permission to turn it on, please try a
-						different browser preferrably Google Chrome
+			<div className="outer-container">
+				<div className="flex-1">
+					<div className="app_container">
+						{!initializing && (
+							<div className="canvas behind">
+								Hi, your webcam video should show here. If you
+								can't see your webcam video, your webcam may not
+								be turned on. If you don't see the permission to
+								turn it on, please try a different browser
+								preferrably Google Chrome
+							</div>
+						)}
+						<video
+							className="video-container"
+							ref={videoRef}
+							autoPlay
+							muted
+							height={videoHeight}
+							width={videoWidth}
+							onPlay={() => setInitializing(false)}
+						></video>
+						<canvas ref={canvasRef} className="canvas" />
 					</div>
-				)}
-				<video
-					className="video-container"
-					ref={videoRef}
-					autoPlay
-					muted
-					height={videoHeight}
-					width={videoWidth}
-					onPlay={() => setInitializing(false)}
-				></video>
-				<canvas ref={canvasRef} className="canvas" />
+					<div>
+						<button
+							onClick={() => {
+								setShowDetections(!showDetections);
+							}}
+						>
+							{showDetections
+								? "Hide detections"
+								: "Show detections"}
+						</button>
+						<button
+							onClick={() => {
+								setShowLandmarks(!showLandmarks);
+							}}
+						>
+							{showLandmarks
+								? "Hide landmarks"
+								: "Show landmarks"}
+						</button>
+						<button
+							onClick={() => {
+								setShowExpressions(!showExpressions);
+							}}
+						>
+							{showExpressions
+								? "Hide expressions"
+								: "Show expressions"}
+						</button>
+					</div>
+				</div>
+				<div className="flex-1 chart-outer">
+					<Charts data={data} />
+				</div>
 			</div>
-			<button
-				onClick={() => {
-					setShowDetections(!showDetections);
-				}}
-			>
-				{showDetections ? "Hide detections" : "Show detections"}
-			</button>
-			<button
-				onClick={() => {
-					setShowLandmarks(!showLandmarks);
-				}}
-			>
-				{showLandmarks ? "Hide landmarks" : "Show landmarks"}
-			</button>
-			<button
-				onClick={() => {
-					setShowExpressions(!showExpressions);
-				}}
-			>
-				{showExpressions ? "Hide expressions" : "Show expressions"}
-			</button>
-			<Charts data={data} />
 		</div>
 	);
 }

@@ -72,6 +72,11 @@ This application is a trading platform that is built to foster mentorship, commu
 
 ### Built With
 
+* React
+* Javscript 
+* CSS
+* Firebase
+* Figma
 
 
 

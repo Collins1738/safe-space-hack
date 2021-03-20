@@ -22,7 +22,7 @@
     <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Tubman</h3>
+  <h3 align="center">SafeSpace</h3>
 
   <p align="center">
     This application is a mental health platform that is built to help the black community.
@@ -140,7 +140,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Repo Owner - [@toni_osh](https://twitter.com/collins) - tobechikeluba@gmail.com
+Repo Owner - [@callings98](https://twitter.com/collins) - tobechikeluba@gmail.com
 
 Project Link: [https://github.com/Collins1738/safe-space-hack](https://github.com/Collins1738/safe-space-hack)
 

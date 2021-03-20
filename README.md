@@ -63,10 +63,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<a href="https://github.com/Collins1738/safe-space-hack">
-    <img src="" alt="Logo" width="200" height="350">
-  </a>
-
 This application is a mental health platform that is built to help the black community.
 People in the black community are suffering from mental health issues. 
 It is difficult to easily find mental health services that fit a users need.

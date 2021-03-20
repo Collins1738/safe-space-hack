@@ -32,6 +32,16 @@
 
 
 
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+Visit our [SafeSpace Emotion Recognition Demo site](https://safe-space1.web.app) to interact with our demo application.
+
+
+
+
+
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
@@ -102,14 +112,6 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    npm install
    ```
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Visit this [website](https://example.com) to interact with our demo application.
-
 
 
 <!-- ROADMAP -->

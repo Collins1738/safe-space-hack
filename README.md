@@ -142,7 +142,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Repo Owner - [@callings98](https://twitter.com/collins) - tobechikeluba@gmail.com
+Repo Owner - [Collins Chikeluba - Twitter](https://twitter.com/collins___c) - tobechikeluba@gmail.com
 
 Project Link: [https://github.com/Collins1738/safe-space-hack](https://github.com/Collins1738/safe-space-hack)
 

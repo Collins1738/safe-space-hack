@@ -72,9 +72,7 @@ This application is a trading platform that is built to foster mentorship, commu
 
 ### Built With
 
-* [Java]()
-* [Firebase]()
-* [Figma]()
+
 
 
 <!-- GETTING STARTED -->
@@ -149,10 +147,9 @@ Project Link: [https://github.com/Collins1738/safe-space-hack](https://github.co
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* Howard University SOB for setting up the Bison Hacks Hackathon! 
+* Howard University SOB ! 
 * All the sponsors!
-* Accenture for their challange inspiration!
-* Fiserv for their challange inspiration!
+
 
 
 
@@ -166,7 +163,7 @@ Project Link: [https://github.com/Collins1738/safe-space-hack](https://github.co
 [forks-url]: https://github.com/Collins1738/safe-space-hack/network/members
 [stars-shield]: https://img.shields.io/github/stars/Collins1738/safe-space-hack.svg?style=for-the-badge
 [stars-url]: https://github.com/Collins1738/safe-space-hack/stargazers
-[issues-shield]: https://img.shields.io/github/issuesCollins1738/safe-space-hack.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/Collins1738/safe-space-hack.svg?style=for-the-badge
 [issues-url]: https://github.com/Collins1738/safe-space-hack/issues
 [license-shield]: https://img.shields.io/github/license/tonioshikanlu/tubman-hack.svg?style=for-the-badge
 [license-url]: https://github.com/Collins1738/safe-space-hack/blob/main/LICENSE

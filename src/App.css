@@ -1,7 +1,7 @@
-/* .App {
-  text-align: center;
+.App {
+	text-align: center;
 }
-
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -38,12 +38,21 @@
 } */
 
 .app_container {
-	border: 2px solid;
+	/* border: 2px solid; */
 	/* width: 500px; */
 	display: flex;
 	justify-content: center;
 }
 
+.video-container {
+	border: 2px solid;
+}
+
 .canvas {
 	position: absolute;
+}
+
+.behind {
+	z-index: -1;
+	width: 200px;
 }
